@@ -1,0 +1,128 @@
+<DOCTYPE HTML!>
+<html>
+    <head>
+<meta charset="utf-8">
+    <title>Форма!</title>
+    <style>
+    a:hover {
+            background-color: #6495ED;
+        }
+
+    a.active {
+            background-color: #87CEFA;
+    }
+
+
+    body {
+      background-image: url("images/knosss1.png");
+    }
+
+    h2 {
+         color: white;
+       }
+
+    h3 {
+         color: white;
+       }
+    a {
+         color: white;
+       }
+     ol {
+         color: white;
+       }
+
+    p {
+      color: white;
+    }
+
+    td {
+      color: #800000
+    }
+
+    figcaption {
+      color: white
+    }
+    table {
+            background-image: url("images/k5.jpg");
+      
+            background-size: cover;
+            background-position: center;
+            color: white
+        } 
+    li {
+        color: white
+    }
+    
+
+  </style>
+
+    </head>
+    <body>
+
+      <a href="#top" style="position: fixed; bottom: 25px; right: 25px; z-index: 99;">
+    <img src="images/au.png" alt="Наверх" width="90" border="0">
+</a>
+
+<a href="#c" style="position: fixed; bottom: 40 px; right: 25px; z-index: 90;">
+    <img src="images/ad.png" alt="Вниз" width="90" border="0">
+</a>
+
+<h2 text align="center"> Анкета </h2>
+<ul>
+    <li> <a href="main.html" >Главная страница</a> </li>
+    <li> <a href="base.html">  Списки </a> </li>
+    <li> <a href="fres.html"> Фрески </a> </li>
+    <li> <a href="task.html">Задача </a> </li>
+    <li> <a href="form.html" class="active"> Форма </a> </li>
+    <li> <a href="passport.html">Паспорт </a> </li>
+</ul>
+<h3>Заполните первую форму, если вы хотите посетить лекцию, и вторую, чтобы поучаствовать в опросе!</h3>
+<br>
+<h2>Записаться на лекцию:</h2>
+<form action="https://www.google.com" id="User1" name="User1" target="_blank">
+    <p> Ваше ФИО: <input type="text" name="namee"></p>
+    <p> Ваш возраст: <input type="number" name="age" min="0" max="100"></p>
+    <p> Ваш логин: <input type="text" name="username"></p>
+    <p> Пароль: <input name="password" size=8 type="Password" value=""></p>
+    <p> Ваш номер телефона: <input type="number" name="phone"></p>
+    <p> Ваша электронная почта: <input type="email" name="email"></p>
+    <p> Дата:<input name="date" type="date" value='2000-01-01'></p>
+  <p><input type="submit" value="Отправить">
+   <input type="reset" value="Очистить форму"></p>
+</form>
+
+<br>
+
+<h2>Знакомы ли вы с историей Крита?</h2>
+<form action="https://www.google.com" id="User2" name="User2" target="_blank">
+
+    <p> Ваше ФИО <input type="Text" name="fio"></p>
+    <p><b>Как хорошо вы знаете историю минойской цивилизации?</b><Br>
+   <input type="radio" name="aa" value="y"> Довольно хорошо<Br>
+   <input type="radio" name="bb" value="n"> Средне <Br>
+   <input type="radio" name="cc" value="f"> Почти не знаю<Br>
+  </p>
+
+  <p><b>Откуда вы с ней знакомы?</b><Br>
+    <p>Интернет<input type="checkbox" name="in" value="no"></p>
+    <p>Книги<input type="checkbox" name="kn" value="no"></p>
+    <p>Лекции<input type="checkbox" name="le" value="no"></p>
+    <p>Другое<input type="checkbox" name="dr" value="no"></p>
+  </p>
+  <p>Напишите, книги каких авторов вы читали по теме. Если вы не знакомы с литературой о Крите, оставьте поле пустым<Br>
+   <textarea name="comment" cols="30" rows="2"></textarea></p>
+
+    <p>Выберите наиболее удобный для вас тип восприятия информации:
+            <select name="info">
+                <OPTION value="inf1">Зрительный: презентации, текст</OPTION>
+                <OPTION value="inf2">Аудио: лекции, подкасты</OPTION>
+                <OPTION value="inf3">И тот, и другой в равной степени</OPTION>
+            </select>
+        </p>
+  <p><input type="submit" value="Отправить">
+   <input type="reset" value="Очистить"></p>
+</form>
+<p id="c"></p>
+</body>
+
+</html>

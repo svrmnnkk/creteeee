@@ -1,0 +1,106 @@
+<DOCTYPE HTML!>
+<html>
+    <head>
+<meta charset="utf-8">
+    <title>Паспорт!</title>
+    <style>
+    a:hover {
+            background-color: #6495ED;
+        }
+
+      a.active {
+            background-color: #87CEFA;
+    }
+
+
+    body {
+      background-image: url("images/knosss1.png");
+    }
+
+    h2 {
+         color: white;
+       }
+
+    h3 {
+         color: white;
+       }
+    a {
+         color: white;
+       }
+     ol {
+         color: white;
+       }
+
+    p {
+      color: white;
+    }
+
+    figcaption {
+      color: white
+    }
+    li {
+        color: white
+    }
+
+     body{
+            background-image: url(images/knosss1.png);
+     }
+         .passport-card {
+            background-color: #fff;
+            border: 2px #3d2100;
+            width: 600px;
+            margin: 0 auto;
+            padding: 25 px;
+        }
+        .passport-photo { border: 3px}
+  </style>
+
+    </head>
+    <body>
+
+      <a href="#top" style="position: fixed; bottom: 25px; right: 25px; z-index: 99;">
+    <img src="images/au.png" alt="Наверх" width="90" border="0">
+</a>
+
+<a href="#d" style="position: fixed; bottom: 40 px; right: 25px; z-index: 90;">
+    <img src="images/ad.png" alt="Вниз" width="90" border="0">
+</a>
+
+<h2 text align="center"> Паспорт </h2>
+<ul>
+    <li> <a href="main.html">Главная страница</a> </li>
+    <li> <a href='base.html'>  Списки </a> </li>
+    <li> <a href='fres.html'> Фрески </a> </li>
+    <li> <a href='task.html'>Задача </a> </li>
+    <li> <a href="form.html"> Форма </a> </li>
+    <li> <a href='passport.html' class="active">Паспорт </a> </li>
+</ul>
+
+<div class="passport-card">
+        <table border="1" width="100%" cellpadding="5">
+            <tr>
+                <td width="40%">
+                    <img src="images/mino.jpg" width="100%" class="passport-photo" alt="Портрет">
+                </td>
+                <td width="60%" valign="top" style="font-size: 19px; line-height: 2">
+  
+                    <b>Имя:</b> <span id="Name">Минотавр</span><br>
+                    <b>Год рождения:</b> <span id="Date">2000 до н.э.</span><br>
+                    <b>Место рождения: </b> <span id="Place">Крит</span><br>
+                    <b>Место жительства: </b> <span id="Place2">Лабиринт</span><br>
+                    <b>Пол: </b> <span id="S">мужской</span><br>
+                    <b>Семейное положение: </b> <span id="Fam">Не женат</span><br>
+
+                    <button id="translate" class="translate">Перевести!</button>
+                </td>
+            </tr>
+        </table>
+    </div>
+<br>
+<h3>Скриншот!</h3>
+
+<img src="images/screen.png" width="900">
+
+    <script src="passport.js"></script>
+</body>
+</html>
